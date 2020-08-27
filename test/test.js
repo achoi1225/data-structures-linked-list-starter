@@ -244,6 +244,8 @@ describe('LinkedList', () => {
             it('Should contain a value that was added', () => {
                 linkedList.addToTail('A');
                 linkedList.addToTail('B');
+
+
                 expect(linkedList.contains('A')).to.equal(true);
                 expect(linkedList.contains('B')).to.equal(true);
                 expect(linkedList.contains('C')).to.equal(false);
